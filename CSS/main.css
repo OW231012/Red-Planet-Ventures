@@ -1,0 +1,515 @@
+/* Navigation */
+body{
+    margin: 0;
+}
+.headerSection {
+    background-image: url(../Assets/Images/homePageHeader.png);
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.headerSection2 {
+    background-image: url(../Assets/Images/headerbackBack.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topNav{
+    position: absolute;
+    width: 90%;
+    padding: 30px 75px 0px 75px;
+}
+.topNavBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* stoot buitenste elements na kante van die screen*/
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #f0f1f2b9;
+    border-radius: 35px;
+    padding: 10px;
+    overflow: hidden;
+}
+.navFlexItem{
+    justify-self: right;
+}
+.topNavText a {
+    color: #6503A6;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topNavText a:hover {
+    background-color: #F0F1F2;
+    color: #460273;
+    font-weight: 900;
+}
+.topNavText a.active {
+    background-color: #F0F1F2;
+    color: #460273;
+    font-weight: 900;
+}
+.search{
+    background-color: #ffffff;
+    opacity: 1;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 200px;
+    align-self: right;
+}
+.search h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 5px;
+}
+.headerSection{
+    display: flex;
+    flex-direction: column;
+    height: 950px;  
+}
+.headerFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face{
+    font-family: 'Porter Sans Block';
+    src: url(../Assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff) format("woff");
+}
+.headerFlex {
+    display: flex;
+    height: 800px;
+    padding: 6em;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.flexItem h1{
+    font-family: 'Porter Sans Block';
+    font-size: 48px;
+    color: #E8222E;
+}
+.flexItem h2{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    color: #6503A6;
+}
+.headerFlex2 {
+    display: flex;
+    height: 500px;
+    padding: 6em;
+    justify-content: center;
+    align-items: center;
+}
+.flexItem2 h1{
+    font-family: 'Porter Sans Block';
+    font-size: 48px;
+    color: #F0F1F2;
+}
+
+
+
+
+
+/* Sections */
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.itemContainer4{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #F0F1F2;
+}
+.text1{
+    padding: 30px;
+    flex: 25%;
+    text-align: center;
+}
+.text1 img{ /*do this every time you add an image to make the sizing work*/
+    width: 100%;
+    border-radius: 20px;
+}
+.text1 h3{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F2B705;
+}
+.text1 h1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 48px;
+    color: #F0F1F2;
+}
+.text1 p{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F0F1F2;
+}
+.map {
+    height: 607px;
+    width: 534px;
+    border-radius: 12px;
+}
+.button {
+    background-color: #E8222E;
+    color: #F0F1F2;
+    padding: 15px 32px;
+    text-align: center;
+    width: 270px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #F2B705;
+    color: #460273;
+}
+.backgroundColour1{
+    background-color: #460273;
+}
+.text2{
+    padding: 60px;
+    flex: 50%; /* means that the image will be 50% of the screen*/
+    text-align: justify;
+}
+.text2 img{ /*do this every time you add an image to make the sizing work*/
+    width: 100%;
+    border-radius: 20px;
+}
+.text2 h3{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F2B705;
+}
+.text2 h4{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #460273;
+}
+.text2 h1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 48px;
+    color: #460273;
+}
+.text2 p{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #460273;
+}
+.button {
+    background-color: #E8222E;
+    color: #F0F1F2;
+    padding: 15px 32px;
+    text-align: center;
+    width: 270px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #F2B705;
+    color: #460273;
+}
+.backgroundColour2{
+    background-color: #F0F1F2;
+}
+.itemContainer2{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.itemContainer3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.text1 h2{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F0F1F2;
+}
+.button2 {
+    background-color: #F0F1F2;
+    color: #6503A6;
+    padding: 15px 32px;
+    text-align: center;
+    width: 270px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: #F2B705;
+    color: #460273;
+}
+
+
+
+
+
+/* Form */
+.flexRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0em 4em;
+}
+.formContainer{
+    width: 100%;
+    margin: 0 auto;
+}
+#contact{
+    background-image: url(../assets/images/formBack.png);
+    background-size: cover;
+    background-position: center;
+    /*background-color: #f9f9f9;*/
+    padding: 2em 4em;
+    width: 100%;
+    margin: 50px 0;
+}
+#contact h3{
+    color: #F0F1F2;
+    display: block;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+#contact input, label, #contact textarea, #contact button{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F0F1F2;
+}
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    width: 100%;
+    padding: 0;
+}
+#contact input, #contact textarea{
+    width: 100%;
+    border: 1px solid #460273;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #000000;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+::placeholder{
+    color: #460273;
+}
+#contact textarea{
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+#contact button{
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    background-color: #460273;
+    color: #F0F1F2;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+#contact button:hover{
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    background-color: #F2B705;
+    color: #460273;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+#contact input:hover, #contact textarea:hover{
+    background-color: #6503A6;
+    color: #F0F1F2;
+}
+#contact input:focus, #contact textarea:focus{
+    background-color: #460273;
+    color: #F0F1F2;
+}
+
+
+
+
+
+/* Footer */
+.row1{
+    background-color: #F0F1F2;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.coloumn1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.row2 img{
+    width: 10%;
+}
+
+hr {
+border-top: 2px solid;
+background-color: #F0F1F2;
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+/* Flights */
+.row3{
+    background-color: #460273;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.row3 img{
+    width: 1%;
+}
+
+.row4{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+.text4{
+    padding: 60px;
+    flex: 50%; /* means that the image will be 50% of the screen*/
+    text-align: justify;
+}
+.text4 h1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 4cap;
+    font-weight: 500;
+    color: #460273;
+}
+.text4 h2{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #460273;
+}
+.text4 h3{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #460273;
+}
+.text4 p{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #460273;
+}
+.text5{
+    padding: 60px;
+    flex: 50%; /* means that the image will be 50% of the screen*/
+    text-align: justify;
+}
+.text5 h1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 4cap;
+    font-weight: 500;
+    color: #F0F1F2;
+}
+.text5 h2{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F0F1F2;
+}
+.text5 h3{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F0F1F2;
+}
+.text5 p{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F0F1F2;
+}
