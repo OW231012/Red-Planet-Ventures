@@ -151,17 +151,20 @@ body{
     font-weight: 500;
     color: #F2B705;
     padding-top: 100px;
+
 }
 .text1 h4{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #F2B705;
+    margin: 0;
 }
 .text1 h1{
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
     color: #F0F1F2;
+    margin: 0;
 }
 .text1 p{
     font-family: 'Poppins' , sans-serif;
@@ -184,11 +187,13 @@ body{
     font-weight: 500;
     color: #F2B705;
     padding-top: 100px;
+    margin: 0;
 }
 .text6 h1{
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
     color: #F0F1F2;
+    margin: 0;
 }
 .text6 p{
     font-family: 'Poppins' , sans-serif;
@@ -244,6 +249,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     color: #F2B705;
+    margin: 0;
 }
 .text2 h4{
     text-align: left;
@@ -251,11 +257,13 @@ body{
     font-size: 48px;
     font-weight: 700;
     color: #460273;
+    margin: 0;
 }
 .text2 h1{
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
     color: #460273;
+    margin: 0;
 }
 .text2 p{
     font-family: 'Poppins' , sans-serif;
@@ -694,6 +702,7 @@ padding: 0;
     justify-content: flex-start;
     align-items: start;
     text-align: left;
+    padding-top: 20px;
 }
 .coloumn1 h5{
     font-family: 'Poppins' , sans-serif;
@@ -703,6 +712,7 @@ padding: 0;
     justify-content: flex-start;
     align-items: start;
     text-align: left;
+    padding-top: 20px;
 }
 .row5{
     display: flex;
@@ -768,7 +778,7 @@ padding: 0;
 }
 .actionContainer{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     width: 70%;
 }
@@ -788,4 +798,9 @@ padding: 0;
     align-items: start;
     width: 40%;
     margin-left: 40px;
+    
+}
+.text9{
+    padding: 0px 30px;
+    flex: 35%;
 }
