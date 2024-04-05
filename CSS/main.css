@@ -33,7 +33,7 @@ body{
     text-align: center;
     background-color: #f0f1f2b9;
     border-radius: 35px;
-    padding: 10px;
+    padding: 10px 30px;
     overflow: hidden;
 }
 .navFlexItem{
@@ -133,17 +133,16 @@ body{
     flex-direction: row;
     font-size: 20px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     width: 100%;
     background-color: #F0F1F2;
 }
 .text1{
     padding: 80px 30px;
-    flex: 25%;
+    flex: 35%;
 }
 .text1 img{ /*do this every time you add an image to make the sizing work*/
-    width: 100%;
     border-radius: 20px;
 }
 .text1 h3{
@@ -225,6 +224,9 @@ body{
 }
 
 .backgroundColour1{
+    display: flex;
+    align-items: end;
+    justify-content: end;
     padding: 0 100px;
     background-color: #460273;
 }
@@ -244,6 +246,7 @@ body{
     color: #F2B705;
 }
 .text2 h4{
+    text-align: left;
     font-family: 'Poppins' , sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -283,7 +286,6 @@ body{
 }
 .backgroundColour2{
     background-color: #F0F1F2;
-    padding: 0 100px;
 }
 .itemContainer2{
     display: flex;
@@ -299,8 +301,8 @@ body{
     flex-direction: column;
     font-size: 20px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     width: 50%;
 }
 .text1 h2{
@@ -352,7 +354,7 @@ body{
     background-position: center;
     /*background-color: #f9f9f9;*/
     padding: 2em 4em;
-    width: 100%;
+    border-radius: 30px;
     margin: 50px 0;
 }
 #contact h3{
@@ -367,6 +369,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     color: #F0F1F2;
+    text-align: left;
 }
 fieldset{
     border: medium none !important;
@@ -374,6 +377,8 @@ fieldset{
     min-width: 100%;
     width: 100%;
     padding: 0;
+    text-align: left;
+    margin: 15px 0;
 }
 #contact input, #contact textarea{
     width: 100%;
@@ -433,12 +438,12 @@ fieldset{
     flex-direction: row;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    align-items: start;
+    padding: 20px;
 }
 .row1 p{
     color: #460273d5;
-    padding: 0 50px;
+    padding: 0px;
 }
 .row1 h1{
     color: #460273;
@@ -456,16 +461,14 @@ fieldset{
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 .coloumn1{
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
-    align-items: center;
     width: 100%;
     text-align: left;
 }
@@ -481,6 +484,8 @@ fieldset{
     justify-content: left;
     align-items: start;
     padding-top: 0;
+    margin: 0;
+    padding: 0;
 }
 .coloumn1 h1:hover{
     color: #460273;
@@ -489,6 +494,7 @@ fieldset{
     justify-content: left;
     align-items: start;
     padding-top: 0;
+    padding: 0;
 }
 .coloumn1 h2{
     font-weight: 400;
@@ -512,7 +518,7 @@ fieldset{
     font-weight: 900;
 }
 .row2 img{
-    padding: 10px;
+    margin-top: 10px;
     width: 15%;
 }
 hr {
@@ -544,7 +550,7 @@ padding: 0;
 }
 .text4 h1{
     font-family: 'Poppins' , sans-serif;
-    font-size: 4cap;
+    font-size: 48px;
     font-weight: 500;
     color: #460273;
 }
@@ -573,7 +579,7 @@ padding: 0;
 }
 .text5 h1{
     font-family: 'Poppins' , sans-serif;
-    font-size: 18px;
+    font-size: 48px;
     font-weight: 500;
     color: #F0F1F2;
 }
@@ -608,6 +614,14 @@ padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #F0F1F2;
+    width: 100%;
+}
+.justifyCentre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #460273;
     width: 100%;
 }
 .row3{
@@ -751,4 +765,27 @@ padding: 0;
 .button4:hover {
     background-color: #F2B705;
     color: #460273;
+}
+.actionContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+}
+
+.coloumn1 h4{
+    margin: 0;
+}
+.coloumn1 h5{
+    margin: 0;
+}
+.itemContainer8{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: centre;
+    justify-content: start;
+    align-items: start;
+    width: 40%;
+    margin-left: 40px;
 }
