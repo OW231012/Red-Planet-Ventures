@@ -33,6 +33,7 @@
                                     <a href="../index.html">Home</a>
                                     <a href="flights.html">Flights</a>
                                     <a class="active" href="contact.html">Contact</a>
+                                    <a href="about.html">About us</a>
                                 </div>
                                 <div class="navFlexItem">
                                     <div class="search">
@@ -106,32 +107,32 @@
                             <h4>PHYSICAL LOCATION</h4>
                         </div>
                         <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.3212094149726!2d28.20695131144928!3d-25.891809177175592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956608911ce097%3A0x519896b4b6eda40a!2sOpen%20Window%20-%20Centurion!5e0!3m2!1sen!2sza!4v1710337589103!5m2!1sen!2sza" width="607px" height="534px" style="border:0; padding:0 60px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.3212094149726!2d28.20695131144928!3d-25.891809177175592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956608911ce097%3A0x519896b4b6eda40a!2sOpen%20Window%20-%20Centurion!5e0!3m2!1sen!2sza!4v1710337589103!5m2!1sen!2sza" width="607px" height="534px" style="border:0; padding:0 60px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" border-radius="10px"></iframe>
                         </div>
                 </div>
 
                 <div class="flexRight">
                     <div class="formContainer">
-                       <form id="contact">
+                       <form name="contactForm"> <!--AAAAAAAAAAAAHHHHHHHHH I have absolutely no frigginn idea why this isnt working anymore-->
                        <h3>SEND US A MESSAGE</h3>
                        <fieldset>
                                 <label for="fname">Your Name</label>
-                               <input placeholder="Abc" type="text" tabindex="1" required>
+                               <input placeholder="Abc" type="text" tabindex="1"  name="name" required>
                        </fieldset>
                        <fieldset>
                                 <label for="fname">Email Address</label>
-                               <input placehoLder="Abx@def.com" type="email" tabindex="2" required>
+                               <input placehoLder="Abx@def.com" type="email" tabindex="2" name="email" required>
                        </fieLdset>
                        <fieldset>
                                 <label for="fname">Subject</label>
-                               <input pLaceholder="This is optional." type="text" tabindex="3" >
+                               <input pLaceholder="This is optional." type="text" tabindex="3" name="subject" >
                        </fieldset>
                        <fieldset>
                                 <label for="fname">Message</label>
-                                <input placeholder="Hi! I'd like to ask about..." type="text" tabindex="4" required>
+                                <input placeholder="Hi! I'd like to ask about..." type="text" tabindex="4" name="message" required>
                        </fieldset>
                        <fieldset>
-                        <button name="submitButton" type="Submit" id="contactUsSubmit" tabindex="8">Submit</button>
+                        <button name="submitButton" type="Submit" id="contactUsSubmit" tabindex="8" >Submit</button>
                 </fieldset>
                        </form>
                     </div>
@@ -163,10 +164,18 @@
                         <div class="coloumn1">
                             <h1>Social Media Links</h1>
                             <div class="row2">
-                                <img src="../Assets/Images/smInstagram.png">
-                                <img src="../Assets/Images/smX.png">
-                                <img src="../Assets/Images/smTicktock.png">
-                                <img src="../Assets/Images/smFacebook.png">
+                                <p><a href="https://www.instagram.com/openwindowinstitute/">
+                                    <img src="../Assets/Images/smInstagram.png">
+                                </a></p>
+                                <p><a href="https://x.com/open_window_">
+                                    <img src="../Assets/Images/smX.png">
+                                </a></p>
+                                <p><a href="https://www.tiktok.com/@open_window_">
+                                    <img src="../Assets/Images/smTicktock.png">
+                                </a></p>
+                                <p><a href="https://web.facebook.com/theopenwindow">
+                                    <img src="../Assets/Images/smFacebook.png">
+                                </a></p>
                             </div>
                         </div>
                     </div>
