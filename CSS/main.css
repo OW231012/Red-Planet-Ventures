@@ -4,7 +4,7 @@ body{
 }
 .headerSection {
     background-image: url(../Assets/Images/homePageHeader.png);
-    height: 950px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,22 @@ body{
 .headerSection2 {
     background-image: url(../Assets/Images/headerbackBack.png);
     height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.headerSection2 {
+    background-image: url(../Assets/Images/headerbackBack.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.headerSection3 {
+    background-image: url(../Assets/Images/headerbackBack.png);
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,6 +91,7 @@ body{
     flex-direction: column;
     height: 950px;  
 }
+
 .headerFlex{
     display: flex;
     justify-content: center;
@@ -119,6 +136,95 @@ body{
 
 
 /* Sections */
+
+/*Image Carousel W3Schools
+
+* Slideshow container *
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  * Next & previous buttons *
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  * Position the "next button" to the right *
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  * On hover, add a black background color with a little bit see-through *
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  * Caption text *
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  * Number text (1/3 etc) *
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  * The dots/bullets/indicators *
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  * Fading animation *
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  * On smaller screens, decrease text size *
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }*/
+  
 .itemContainer{
     display: flex;
     flex-direction: row;
@@ -236,13 +342,13 @@ body{
     background-color: #460273;
 }
 .text2{
-    padding: 60px;
+    padding: 20px;
     flex: 50%; /* means that the image will be 50% of the screen*/
     text-align: justify;
 }
 .text2 img{ /*do this every time you add an image to make the sizing work*/
     width: 100%;
-    border-radius: 20px;
+    border-radius: 60px 0px 20px 10px;
 }
 .text2 h3{
     font-family: 'Poppins' , sans-serif;
@@ -356,7 +462,7 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-#contact{
+#contactForm{
     background-image: url(../assets/images/formBack.png);
     background-size: cover;
     background-position: center;
@@ -365,14 +471,14 @@ body{
     border-radius: 30px;
     margin: 50px 0;
 }
-#contact h3{
+#contactForm h3{
     color: #F0F1F2;
     display: block;
     font-family: 'Poppins' , sans-serif;
     font-size: 40px;
     font-weight: 600;
 }
-#contact input, label, #contact textarea, #contact button{
+#contactForm input, label, #contactForm textarea, #contactForm button{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -388,24 +494,24 @@ fieldset{
     text-align: left;
     margin: 15px 0;
 }
-#contact input, #contact textarea{
+#contactForm input, #contactForm textarea{
     width: 100%;
     border: 1px solid #460273;
     border-radius: 10px;
     background-color: #f9f9f9;
     color: #000000;
-    margin: 0 0 5px;
-    padding: 10px;
+    margin: 0 0px 5px;
+    padding: 35px 0px 35px 25px;
 }
 ::placeholder{
     color: #460273;
 }
-#contact textarea{
+#contactForm textarea{
     height: 100px;
     width: 100%;
     resize: none;
 }
-#contact button{
+#contactForm button{
     cursor: pointer;
     width: 50%;
     border: none;
@@ -415,7 +521,7 @@ fieldset{
     padding: 10px;
     font-size: 16px;
 }
-#contact button:hover{
+#contactForm button:hover{
     cursor: pointer;
     width: 50%;
     border: none;
@@ -425,15 +531,14 @@ fieldset{
     padding: 10px;
     font-size: 16px;
 }
-#contact input:hover, #contact textarea:hover{
+#contactForm input:hover, #contactForm textarea:hover{
     background-color: #6503A6;
     color: #F0F1F2;
 }
-#contact input:focus, #contact textarea:focus{
+#contactForm input:focus, #contactForm textarea:focus{
     background-color: #460273;
     color: #F0F1F2;
 }
-
 
 
 
@@ -447,7 +552,7 @@ fieldset{
     text-align: center;
     justify-content: center;
     align-items: start;
-    padding: 20px;
+    padding: 35px;
 }
 .row1 p{
     color: #460273d5;
@@ -469,7 +574,7 @@ fieldset{
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     width: 100%;
 }
@@ -527,7 +632,8 @@ fieldset{
 }
 .row2 img{
     margin-top: 10px;
-    width: 15%;
+    margin-right: 15px;
+    width: 65%;
 }
 hr {
 border-top: 2px solid;
@@ -565,14 +671,15 @@ padding: 0;
 .text4 h2{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
-    font-weight: 500;
-    color: #460273;
+    font-weight: 700;
+    color: #F2B705;
+    padding-left: 10px;
 }
 .text4 h3{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: #460273;
+    color: #b9b9b9;
 }
 .text4 p{
     font-family: 'Poppins' , sans-serif;
@@ -594,14 +701,14 @@ padding: 0;
 .text5 h2{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
-    font-weight: 500;
-    color: #F0F1F2;
+    font-weight: 700;
+    color: #F2B705;
 }
 .text5 h3{
     font-family: 'Poppins' , sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: #F0F1F2;
+    color: #b9b9b9;
 }
 .text5 p{
     font-family: 'Poppins' , sans-serif;
@@ -801,6 +908,6 @@ padding: 0;
     
 }
 .text9{
-    padding: 0px 30px;
+    padding: 0px 20px;
     flex: 35%;
 }
